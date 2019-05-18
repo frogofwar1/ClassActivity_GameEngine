@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="SpaceStation.cpp" />
+    <ClCompile Include="SpaceStationProj.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Robot.hpp" />
+    <ClInclude Include="SpaceStation.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{CEEF6CFB-C8E8-41D4-B181-1E521FC1C4DC}</ProjectGuid>
@@ -114,9 +123,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
